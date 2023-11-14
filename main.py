@@ -231,7 +231,7 @@ def peli_hiiri(x, y, nappula, _):
     tyhja_lkm = 0
     for rivi in m["pkentta"]:                   # Lasketaan tyhjien ruutujen lukumäärä
         for alkio in rivi:
-            if alkio in [" ", "f"]:
+            if alkio in [" ", "f", "x"]:
                 tyhja_lkm += 1
 
     if tyhja_lkm == m["miinoja"]:               # Jos tyhjien ruutujen lukumäärä on
